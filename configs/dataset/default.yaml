@@ -1,0 +1,10 @@
+---
+#images_path: "Z:/Columna/ESPINOGRAMAS/DATASET/DICOMS_JPG/ALL_IMAGES"
+#test_images_path: 'Z:/Columna/ESPINOGRAMAS/DATASET/DICOMS_JPG/05/SPINE/RIGHT_SAGITTAL/'
+#dicom_metadata: "Z:/Columna/ESPINOGRAMAS/DATASET/DICOM_Metadata.csv"
+
+images_path: "/mnt/lxestudios/pacs/Columna/ESPINOGRAMAS/DATASET/DICOMS_JPG/ALL_IMAGES/"
+test_images_path: "/mnt/lxestudios/pacs/Columna/ESPINOGRAMAS/DATASET/DICOMS_JPG/05/SPINE/RIGHT_SAGITTAL/"
+dicom_metadata: "/mnt/lxestudios/pacs/Columna/ESPINOGRAMAS/DATASET/DICOM_Metadata.csv"
+
+dataset_json: './dataset/SpineRXDataset_without_instrumentationt_23-12-2022.json'
