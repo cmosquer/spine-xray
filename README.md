@@ -11,7 +11,7 @@ The dataset used for training should be labeled with COCO annotations. The modul
 This includes launching WandB sweeps to optimize hyperparameters: 
 ![image](https://user-images.githubusercontent.com/43885984/211001983-da4a40cc-1ff7-423e-be54-946839efefab.png)
 
-* Architecture: U-Net or FPN (Feature pyramid network): 
+* Architecture: U-Net or FPN (Feature pyramid network) 
 * Backbones: ResNet50 // Densenet 121//  Efficient Net B0//  Efficient Net B4 // Efficient Net B5 // xception // Dual path network 68
 * Levels
 * Optimizer
@@ -24,3 +24,10 @@ This includes launching WandB sweeps to optimize hyperparameters:
 * Patience for early stopping
 
 The configuration of values for sweeps is done in YAML files in configs/sweep, and file reference is specified in main.py
+
+There are two main pipelines implemented: 
+
+* Direct Coordinates Regression (DCR)
+* Heatmap-based Regression (HBR)
+
+ 
