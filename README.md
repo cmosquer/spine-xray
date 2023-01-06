@@ -12,14 +12,7 @@ This includes launching WandB sweeps to optimize hyperparameters:
 ![image](https://user-images.githubusercontent.com/43885984/211001983-da4a40cc-1ff7-423e-be54-946839efefab.png)
 
 * Architecture: U-Net or FPN (Feature pyramid network): 
-* Backbones: 
-- ResNet50
-- Densenet 121
-- Efficient Net B0
-- Efficient Net B4
-- Efficient Net B5
-- xception
-- Dual path network 68
+* Backbones: ResNet50 // Densenet 121//  Efficient Net B0//  Efficient Net B4 // Efficient Net B5 // xception // Dual path network 68
 * Levels
 * Optimizer
 * Loss function
